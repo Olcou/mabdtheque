@@ -1,0 +1,55 @@
+/*-------------------------------------------------------------- # Root --------------------------------------------------------------*/
+
+:root {
+    --primary-color: #ff6600;
+    --secondary-color: #669933;
+    --tertiary-color: #0066cc;
+    --quatro-color: #5c5c5c;
+}
+  
+  /*-------------------------------------------------------------- # Global --------------------------------------------------------------*/
+
+  
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+
+  div .liste_fiche {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-around !important;
+  }
+
+  .middle {
+    text-align: center !important;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+  
+  body,
+  html {
+    height: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    background-color: white;
+  }
+
+  .bg-grey{
+      background-color: #E8E8E8;
+  }
+
+  /*-------------------------------------------------------------- # Rechercher --------------------------------------------------------------*/
+  .page-link{
+    color: #6c757d;
+    border-color: #6c757d;
+  }
+
+  .page-link:hover{
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
